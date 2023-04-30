@@ -1,7 +1,7 @@
 * {
   text-align: center;
 }
-#header {
+header {
   color: #FF5733;
   font-family: 'AvaraBold';
 }
@@ -29,26 +29,33 @@ li {
   display: inline;
   padding: 0.5em;
 }
-#nav, #footer {
+nav{
   background-color: #f804af;
   padding: 0.5em 0;
 }
+footer {
+  background-color: #f8041f;
+  padding: 0.5em 0;
+}
+
 #feature{
   height: 10em;
   margin-bottom: 1em;
   background-color: #30f30b;
 }
-.article {
+article {
   height: 10em;
   margin-bottom: 1em;
-  background-color: #1f8ad1;
 }
 .column1 {
+  height: 10em;
   background-color: #1f8ad1;
 }
 .column2 {
+  height: 10em;
   background-color: #bd4f1c;
 }
 .column3 {
+  height: 10em;
   background-color: #1d9c81;
 }
