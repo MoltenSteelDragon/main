@@ -6,7 +6,6 @@ line-height: 24px;
 background: url("https://raw.githubusercontent.com/MoltenSteelDragon/main/main/midterm/visual/pexels-photo-129731.webp");
 }
 
-
 #topmenu {
 background: #F5F5DC;
 padding: 10px 20px;
@@ -15,3 +14,15 @@ border-top: 1px solid #F5F5DC;
 }
 #topmenu ul { margin: 0; padding: 0; list-style-type: none;}
 #topmenu li { display: inline; padding: 0 20px 0 0 }
+
+.left{
+   float left;
+   margin-left:5%;
+   margin-right:5%;
+}
+
+.right{
+  float:right;
+   margin-left:5%;
+   margin-right:5%;
+}
