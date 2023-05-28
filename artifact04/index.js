@@ -27,4 +27,4 @@ frmvalidator.addValidation("City", "req", "Please enter your City");
 frmvalidator.addValidation("State", "req", "Please enter your State");
 
 frmvalidator.addValidation("Zipcode", "req", "Please enter a zipcode", "VWZ_IsListItemSelected(document.forms['myform'].elements['Country'],'US')");
-frmvalidator.addValidation("Zipcode", "maxlen=5", "zipcode max length is 5 characters);
+frmvalidator.addValidation("Zipcode", "maxlen=5", "zipcode max length is 5 characters");
