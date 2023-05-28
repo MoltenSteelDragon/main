@@ -25,19 +25,3 @@ frmvalidator.addValidation("Address", "req", "Please enter your Address");
 frmvalidator.addValidation("City", "req", "Please enter your City");
 
 frmvalidator.addValidation("State", "req", "Please enter your State");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-frmvalidator.addValidation();
