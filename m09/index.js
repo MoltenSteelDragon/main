@@ -1,11 +1,3 @@
-
-
-
-
-    // Let us stop the propagation of events
-
-    event.stopPropagation();
-  });
   addEventListener("click", function(event) {
     var dot = document.createElement("div");
     dot.className = "dot";
