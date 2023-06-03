@@ -1,12 +1,4 @@
-  var mybutton = document.querySelector("button");
-  mybutton.addEventListener("click", function(event) {
 
-
-    var element = document.getElementsByTagName("div");
-    var index =0;
-    for (index = element.length - 1; index >= 0; index--) {
-      element[index].parentNode.removeChild(element[index]);
-    }
 
 
 
