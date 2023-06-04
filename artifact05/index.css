@@ -6,13 +6,13 @@ body {
   margin: 0;
 }
 
-.slideshow {
+.carousel {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-.slideshow > ul {
+.carousel > ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -37,7 +37,7 @@ body {
   z-index: 1;
 }
 
-.slideshow-button {
+.carousel-button {
   position: absolute;
   z-index: 2;
   background: none;
@@ -49,23 +49,23 @@ body {
   cursor: pointer;
   border-radius: .25rem;
   padding: 0 .5rem;
-  background-color: rgba(100, 100, 100, .1);
+  background-color: rgba(10, 10, 10, .1);
 }
 
-.slideshow-button:hover,
-.slideshow-button:focus {
+.carousel-button:hover,
+.carousel-button:focus {
   color: white;
-  background-color: rgba(100, 100, 100, .2);
+  background-color: rgba(10, 10, 10, .2);
 }
 
-.slideshow-button:focus {
+.carousel-button:focus {
   outline: 1px solid black;
 }
 
-.slideshow-button.prev {
+.carousel-button.prev {
   left: 1rem;
 }
 
-.slideshow-button.next {
+.carousel-button.next {
   right: 1rem;
 }
