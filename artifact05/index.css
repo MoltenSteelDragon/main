@@ -44,7 +44,7 @@ body {
   border: none;
   font-size: 4rem;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-90%);
   color: rgba(200, 200, 200, .5);
   cursor: pointer;
   border-radius: .25rem;
