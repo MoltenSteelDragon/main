@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href ="https://moltensteeldragon.github.io/main/artifact05/index.css">
   <script src ="https://moltensteeldragon.github.io/main/artifact05/index.js" defer></script>
+  <title>Document</title>
 </head>
-
 <body>
-  <div class="slideshow" <section aria-label="slideshow">
-  <button class = "slideshow-button prev" data-slideshow-button="prev">&#8656;</button>
-  <button class = "slideshow-button next" data-slideshow-button="next">&#8658;</button>
-    <ul data-slides>
-      <li class="slide">
-        <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="lake">
-      </li>
-      <li class="slide">
-        <img src="https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="lake an mountains">
-      </li>
-      <li class="slide">
-        <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hot air ballons">
-      </li>
-    </ul>
-    </section>
-  </div>
+  <section aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
+        </li>
+      </ul>
+    </div>
+  </section>
 </body>
-
 </html>
