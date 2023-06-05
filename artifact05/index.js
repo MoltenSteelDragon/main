@@ -16,3 +16,9 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+
+setInterval(myTimer, 3000);
+
+function myTimer() {
+  document.getElementById("next").click();
+}
