@@ -56,6 +56,18 @@ p {
   background-color: rgba(10, 10, 10, .1);
 }
 
+.validator{
+  position: absolute;
+  top: 600px;
+}
+
+.validator.HTML{
+  left: 40%;
+}
+.validator.css{
+  right: 40%;
+}
+
 .carousel-button:hover,
 .carousel-button:focus {
   color: white;
