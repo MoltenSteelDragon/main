@@ -5,6 +5,7 @@ body {
   line-height: 24px;
   background: url("https://raw.githubusercontent.com/MoltenSteelDragon/main/main/midterm/visual/pexels-photo-129731.webp");
   padding: 10px;
+  color: #000090;
 }
 .left {
   margin-left: 5%;
@@ -29,5 +30,8 @@ body {
 }
 #topmenu li {
   display: inline;
-  padding: 0 20px 0 0
+  padding: 0 20px 0 0;
+}
+p {
+  font-size:20px;
 }
