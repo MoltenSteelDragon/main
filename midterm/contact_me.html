@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="https://moltensteeldragon.github.io/main/midterm/visual/style.css">
+  <script src="https://moltensteeldragon.github.io/main/artifact04/gen_validatorv4.js"></script>
   <title>Contact me</title>
 </head>
+
 <body>
   <div id="topmenu">
 
-<ul>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/home">Home</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/about">About</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/coursework">Coursework</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/artifacts">Artifacts</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/module_assignments">Module Assignments</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/contact_me">Contact me</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/%22Own%22_creative_page.html">"Own" creative page</a></li>
-<li><a href="https://moltensteeldragon.github.io/main/midterm/validated">Validated</a></li>
-</ul>
+    <ul>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/home">Home</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/about">About</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/coursework">Coursework</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/artifacts">Artifacts</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/module_assignments">Module Assignments</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/contact_me">Contact me</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/%22Own%22_creative_page.html">"Own" creative page</a>
+      </li>
+      <li><a href="https://moltensteeldragon.github.io/main/midterm/validated">Validated</a>
+      </li>
+    </ul>
   </div>
   <h1>Contact me</h1>
-  <form action="https://moltensteeldragon.github.io/main/midterm/thank_you">
-    <p>Name: <input type="text" Name="name"></p>
-    <p>Email: <input type="text" Name="email"></p>
-    <p>Comments: <textarea name="comments"> enter your comments</textarea></p>
+  <form action="https://moltensteeldragon.github.io/main/midterm/thank_you" name="myform" id="myform">
+    <p>
+      <label for='Name'>Name:</label>
+      <input type="text" id="Name" name="Name">
+    </p>
+    <label for='Email'>Email:</label>
+    <input type="text" id="Email" name="Email">
+    </p>
+    <p>
+      <label for='Comments'>Comments:</label>
+      <textarea cols="20" rows="5" id="Comments" name="Comments"></textarea>
+    </p>
     <input type="submit" value="Submit">
+  <div id='myform_errorloc' class='error_strings'></div>
   </form>
 
+
+
+
+
+  <script src="https://moltensteeldragon.github.io/main/midterm/contact_me.js"></script>
 </body>
+
 </html>
